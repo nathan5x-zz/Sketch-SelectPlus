@@ -1,0 +1,10 @@
+# npm modules
+node_modules
+
+# All type of Logs
+logs
+*.log
+npm-debug.log*
+
+# npm cache directory
+.npm
