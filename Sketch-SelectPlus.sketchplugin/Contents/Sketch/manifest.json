@@ -1,0 +1,209 @@
+{
+  "name": "⚓️ Sketch SelectPlus",
+  "description": "SelectPlus offers a dedicated engine to select layers of different types, including Shape types (Rectangles, Polygon, Line, Oval,...).",
+  "author": "Sabarinathan Masilmani",
+  "homepage": "https://github.com/nathan5x/Sketch-SelectPlus",
+  "version": "0.1.1",
+  "appcast": "",
+  "identifier": "com.nathan5x.sketch.selectplus",
+  "updateURL": "",
+  "compatibleVersion": "49.3",
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Select All",
+      "identifier": "com.nathan5x.selectplus.artboards.selectall",
+      "shortcut": "",
+      "script": "lib/artboards/SelectAll.js"
+    },
+    {
+      "name": "Select By Name",
+      "identifier": "com.nathan5x.selectplus.artboards.selectbyname",
+      "shortcut": "",
+      "script": "lib/artboards/SelectByName.js"
+    },
+    {
+      "name": "Select By Name",
+      "identifier": "com.nathan5x.selectplus.layers.selectbyname",
+      "shortcut": "",
+      "script": "lib/layers/SelectByName.js"
+    },
+    {
+      "name": "Select All Bitmap/Images",
+      "identifier": "com.nathan5x.selectplus.layers.selectbitmap",
+      "shortcut": "ctrl option command i",
+      "script": "lib/layers/SelectBitmaps.js"
+    },
+    {
+      "name": "Select All Symbols",
+      "identifier": "com.nathan5x.selectplus.layers.selectsymbol",
+      "shortcut": "ctrl option command s",
+      "script": "lib/layers/SelectSymbols.js"
+    },
+    {
+      "name": "Select All Text",
+      "identifier": "com.nathan5x.selectplus.layers.selecttext",
+      "shortcut": "ctrl option command t",
+      "script": "lib/layers/SelectText.js"
+    },
+    {
+      "name": "Delete By Name",
+      "identifier": "com.nathan5x.selectplus.layers.deletename",
+      "shortcut": "",
+      "script": "lib/layers/DeleteByName.js"
+    },
+    {
+      "name": "Delete All Bitmap/Images",
+      "identifier": "com.nathan5x.selectplus.layers.deletebitmap",
+      "shortcut": "ctrl shift command i",
+      "script": "lib/layers/DeleteBitmaps.js"
+    },
+    {
+      "name": "Delete All Symbols",
+      "identifier": "com.nathan5x.selectplus.layers.deletesymbol",
+      "shortcut": "ctrl shift command s",
+      "script": "lib/layers/DeleteSymbols.js"
+    },
+    {
+      "name": "Delete All Text",
+      "identifier": "com.nathan5x.selectplus.layers.deletetext",
+      "shortcut": "ctrl shift command t",
+      "script": "lib/layers/DeleteText.js"
+    },    
+    {
+      "name": "Select All",
+      "identifier": "com.nathan5x.selectplus.shapes.selectall",
+      "shortcut": "",
+      "script": "lib/shapes/SelectAll.js"
+    },
+    {
+      "name": "Select All Rectangles",
+      "identifier": "com.nathan5x.selectplus.shapes.selectrectangle",
+      "shortcut": "",
+      "script": "lib/shapes/SelectRectangle.js"
+    },
+    {
+      "name": "Select All Ovals",
+      "identifier": "com.nathan5x.selectplus.shapes.selectoval",
+      "shortcut": "",
+      "script": "lib/shapes/SelectOval.js"
+    },
+    {
+      "name": "Select All Lines",
+      "identifier": "com.nathan5x.selectplus.paths.selectline",
+      "shortcut": "",
+      "script": "lib/shapes/paths/SelectLine.js"
+    },
+    {
+      "name": "Select All Arrows",
+      "identifier": "com.nathan5x.selectplus.paths.selectarrow",
+      "shortcut": "",
+      "script": "lib/shapes/paths/SelectArrow.js"
+    },
+    {
+      "name": "Select All Triangles",
+      "identifier": "com.nathan5x.selectplus.shapes.selecttriangle",
+      "shortcut": "",
+      "script": "lib/shapes/SelectTriangle.js"
+    },
+    {
+      "name": "Select All Polygons",
+      "identifier": "com.nathan5x.selectplus.shapes.selecttpolygon",
+      "shortcut": "",
+      "script": "lib/shapes/SelectPolygon.js"
+    },
+    {
+      "name": "Select All Star",
+      "identifier": "com.nathan5x.selectplus.shapes.selectstar",
+      "shortcut": "",
+      "script": "lib/shapes/SelectStar.js"
+    },    
+    {
+      "name": "Guide",
+      "identifier": "com.nathan5x.general.guide",
+      "shortcut": "",
+      "script": "general.js",
+      "handler": "openGuide"
+    },
+    { 
+      "name": "Star in Github",
+      "identifier": "com.nathan5x.general.stargithub",
+      "shortcut": "",
+      "script": "general.js",
+      "handler": "starGithub"
+    },
+    {
+      "name": "Version",
+      "identifier": "com.nathan5x.general.version",
+      "shortcut": "",
+      "script": "general.js",
+      "handler": "showVersion"
+    },
+    {
+      "name": "File a Bug",
+      "identifier": "com.nathan5x.general.filebug",
+      "shortcut": "",
+      "script": "general.js",
+      "handler": "openBugWindow"
+    },
+    {
+      "name": "Send Feedback",
+      "identifier": "com.nathan5x.general.sendfeedback",
+      "shortcut": "",
+      "script": "general.js",
+      "handler": "sendFeedback"
+    }    
+  ],
+  "menu": {
+    "items": [
+        {
+           "title": "Artboards",
+           "items": [
+                "com.nathan5x.selectplus.artboards.selectall",
+                "-",
+                "com.nathan5x.selectplus.artboards.selectbyname"
+            ]
+        },
+        {
+          "title": "Layers",
+          "items": [
+              "com.nathan5x.selectplus.layers.selectbyname",
+              "-",
+              "com.nathan5x.selectplus.layers.selectbitmap",
+              "com.nathan5x.selectplus.layers.selectsymbol",
+              "com.nathan5x.selectplus.layers.selecttext",
+              "-",
+              "com.nathan5x.selectplus.layers.deletename",
+              "-",
+              "com.nathan5x.selectplus.layers.deletebitmap",
+              "com.nathan5x.selectplus.layers.deletesymbol",
+              "com.nathan5x.selectplus.layers.deletetext"
+           ]
+        },
+        {
+          "title": "Shapes",
+          "items": [
+              "com.nathan5x.selectplus.shapes.selectall",
+              "-",
+              "com.nathan5x.selectplus.shapes.selectrectangle",
+              "com.nathan5x.selectplus.shapes.selectoval",              
+              "-",
+              "com.nathan5x.selectplus.shapes.selecttriangle",
+              "com.nathan5x.selectplus.shapes.selecttpolygon",
+              "com.nathan5x.selectplus.shapes.selectstar",
+              "-",
+              "com.nathan5x.selectplus.paths.selectline",
+              "com.nathan5x.selectplus.paths.selectarrow"
+           ]
+        },
+        "-",
+        "com.nathan5x.general.guide",
+        "-",
+        "com.nathan5x.general.stargithub",
+        "com.nathan5x.general.version",
+        "com.nathan5x.general.filebug",
+        "-",
+        "com.nathan5x.general.sendfeedback"
+    ]
+  }
+}
