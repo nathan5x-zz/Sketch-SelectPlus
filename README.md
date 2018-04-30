@@ -1,6 +1,6 @@
 # :anchor: Sketch SelectPlus
 
-Sketch app plugin to deep select different categories / types of layer,it can be bitmaps,shapes(Rectangle, Oval, Triangle, Polygon, Star),symbols, text, etc. With the deep selection, layers can be selected at any levels. 
+Sketch app plugin to deep select different categories / types of layer, it can be bitmaps, shapes(Rectangle, Oval, Triangle, Polygon, Star), symbols, text, etc. With the deep selection, layers can be selected at any levels. 
 
 ## Plugin Options
 ### Primary
@@ -36,10 +36,22 @@ or
 
 #### Select All
 Selects all the Artboards in the current page and removes all other selections. 
-
+<p align="center">
 ![Select All Artboards Walkthrough](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectAll.gif)
+</p>
 
 #### Select By Name
-Selects all the Artboards in the current page based on the name given, and removes all other selections. Name basically works like a pattern, if it matches the partial text in the name it will get selecteed.
+Selects all the Artboards in the current page based on the name given, and removes all the other selections. Name basically works like a pattern, if it matches the partial text in the name it will get selected.
 
+<p align="center">
 ![Select By Name Artboards Walkthrough](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectByName.gif)
+</p>
+
+### Layers
+
+#### Select By Name
+Selects all the Layers in the current selection (Group or Artboard) based on the name given, and removes all the other selections. Name basically works like a pattern, if it matches the partial text in the name it will get selected.
+
+<p align="center">
+![Select All Artboards Walkthrough](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectByName.gif)
+</p>
