@@ -5,17 +5,16 @@ Sketch app plugin to deep select different categories / types of layer,it can be
 ## Plugin Options
 ### Primary
 
-Artboards      | Layers         | Shapes
--------------- | -------------- | -----------------------
-Select All     | Select All     | Select All
-Select By Name | Select By Name | Select All Rectangles
-              | Select All Bitmaps/Images | Select All Ovals
-              | Select All Symbols | Select All Ovals
-              | Select All Text | Select All Triangles
-              | - | Select All Polygons
-              | - | Select All Stars
-              | - | Select All Lines
-              | - | Select All Arrows
+| Artboards      | Layers                    | Shapes                  |
+| -------------- | ------------------------- | ----------------------- |
+| Select All     | Select All                | Select All              |
+| Select By Name | Select By Name            | Select All Rectangles   |
+|                | Select All Bitmaps/Images | Select All Ovals        |
+|                | Select All Symbols        | Select All Triangles    |
+|                | Select All Text           | Select All Polygons     |
+|                |                           | Select All Stars        |
+|                |                           | Select All Lines        |
+|                |                           | Select All Arrows       |
 
 ## Installation
 
