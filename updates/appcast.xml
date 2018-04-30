@@ -3,14 +3,14 @@
   <channel>
     <title>Sketch - SelectPlus</title>
     <link>https://raw.githubusercontent.com/nathan5x/Sketch-SelectPlus/master/appcast.xml</link>
-    <description>These plugins will make you best friends with Sketch.</description>
+    <description>Your selector engine for Sketch.</description>
     <language>en</language>
     <item>
       <title>Version 0.1.1</title>
       <description>
         <![CDATA[
           <ul>
-            <li>Base update</li>
+            <li>Initial release with all the basic selectors.</li>
           </ul>
         ]]>
       </description>
