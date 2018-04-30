@@ -44,7 +44,7 @@ Selects all the Artboards in the current page and removes all other selections.
 Selects all the Artboards in the current page based on the name given, and removes all the other selections. Name basically works like a pattern, if it matches the partial text in the name it will get selected.
 
 <p align="center">
-![Select By Name Artboards Walkthrough](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectByName.gif)
+<img src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectByName.gif" alt="Select By Name Artboards Walkthrough"/>
 </p>
 
 ### Layers
