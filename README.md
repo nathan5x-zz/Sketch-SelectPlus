@@ -1,42 +1,35 @@
-# Sketch - SelectPlus
-===========
+# Sketch - :anchor:SelectPlus
 
 Sketch app plugin to deep select different categories / types of layer,it can be bitmaps,shapes(Rectangle, Oval, Triangle, Polygon, Star),symbols, text, etc. With the deep selection, layers can be selected at any levels. 
 
 ## Plugin Options
+### Primary
 
-#### Artboards
-* Select All
-* Select By Name
-
-#### Layers
-* Select All
-* Select By Name 
-* Select All Bitmaps / Images
-* Select All Symbols
-* Select All Text
-
-#### Shapes
-* Select All
-* Select All Rectangles
-* Select All Ovals
-* Select All Triangles
-* Select All Polygons
-* Select All Stars
-* Select All Lines
-* Select All Arrows
+Artboards      | Layers         | Shapes
+-------------- | -------------- | -----------------------
+Select All     | Select All     | Select All
+Select By Name | Select By Name | Select All Rectangles
+-              | Select All Bitmaps/Images | Select All Ovals
+-              | Select All Symbols | Select All Ovals
+-              | Select All Text | Select All Triangles
+-              | - | Select All Polygons
+-              | - | Select All Stars
+-              | - | Select All Lines
+-              | - | Select All Arrows
 
 ## Installation
 
-To install all plugins, 
+To install the plugin, 
 
-Step 1: [download](https://github.com/nathan5x/Sketch-SelectPlus/archive/master.zip) them first, unzip the archive.
+* Step 1: [Download](https://github.com/nathan5x/Sketch-SelectPlus/archive/master.zip) first, unzip the archive.
 
-Step 2: Place the folder contents in your Sketch Plugins folder by navigating to `Sketch > Plugins > Reveal Plugins Folder…`
+* Step 2: Place the folder contents in your Sketch Plugins folder by navigating to `Sketch > Plugins > Reveal Plugins Folder…`
 
 or
 
-Step 2: Double click the .plugin file. This will automatically copy the plugin to the Sketch Plugins folder.
+* Step 2: Double click the .plugin file. This will automatically copy the plugin to the Sketch Plugins folder.
+
+- - - - 
 
 ## Guide
 
