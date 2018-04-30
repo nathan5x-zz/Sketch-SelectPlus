@@ -26,11 +26,11 @@ To install the plugin,
 
 or
 
-* Step 2: Double click the .plugin file. This will automatically copy the plugin to the Sketch Plugins folder.
+* Step 2: Double click the .sketchplugin file. This will automatically copy the plugin to the Sketch Plugins folder.
 
 - - - - 
 
-## Guide
+## Mini Guide
 
 ### Artboards
 
@@ -38,13 +38,6 @@ or
 Selects all the Artboards in the current page and removes all other selections. 
 <p align="center">
 <img alt="Artboards - Select All walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectAll.gif"/>
-</p>
-
-#### Select By Name
-Selects all the Artboards in the current page based on the name given, and removes all the other selections. Name basically works like a pattern, if it matches the partial text in the name it will get selected.
-
-<p align="center">
-<img src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectByName.gif" alt="Artboards - Select By Name walkthrough"/>
 </p>
 
 ### Layers
@@ -56,23 +49,29 @@ Selects all the Layers in the current selection (Group or Artboard) based on the
 <img alt="Layers - Select By Name walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectByName.gif"/>
 </p>
 
-#### Select Bitmap
-Selects all the Bitmaps (Any type of images) in the current selection (Group or Artboard).
+### Shapes
+
+#### Select Rectangles
+Selects all the shapes of type Rectangle in the current artboard / group, and removes all other selections. 
 
 <p align="center">
-<img alt="Layers - Select Bitmap walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectBitmaps.gif"/>
+<img alt="Shapes - Select All Rectangles" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectRectangles.gif"/>
 </p>
 
-#### Select Symbols
-Selects all the Symbols in the current selection (Group or Artboard).
+[Read More](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/README.md)
 
-<p align="center">
-<img alt="Layers - Select Symbols walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectSymbols.gif"/>
-</p>
+- - - - 
 
-#### Select Text
-Selects all text the current selection (Group or Artboard).
+## Want to contribute? :handshake:
 
-<p align="center">
-<img alt="Layers - Select Text walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectText.gif"/>
-</p>
+1. Fork it ( https://github.com/nathan5x/Sketch-SelectPlus/fork )
+2. Create your feature branch (`git checkout -b my-fancy-feature`)
+3. Commit your changes (`git commit -m 'Added my fancy feature'`)
+4. Push to the branch (`git push origin my-fancy-feature`)
+5. Create a new Pull Request (with details to )
+
+- - - - 
+
+## LICENSE
+
+The project is licensed under the MIT license.
