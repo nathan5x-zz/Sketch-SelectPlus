@@ -55,12 +55,10 @@ Selects all the Layers in the current selection (Group or Artboard) based on the
 Selects all the shapes of type Rectangle in the current artboard / group, and removes all other selections. 
 
 <p align="center">
-<img alt="Shapes - Select All Rectangles" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectRectangles.gif"/>
+<img alt="Shapes - Select All Rectangles" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectRectangle.gif"/>
 </p>
 
 [Read More](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/README.md)
-
-- - - - 
 
 ## Want to contribute? :handshake:
 
@@ -69,8 +67,6 @@ Selects all the shapes of type Rectangle in the current artboard / group, and re
 3. Commit your changes (`git commit -m 'Added my fancy feature'`)
 4. Push to the branch (`git push origin my-fancy-feature`)
 5. Create a new Pull Request (with details to )
-
-- - - - 
 
 ## LICENSE
 
