@@ -37,14 +37,14 @@ or
 #### Select All
 Selects all the Artboards in the current page and removes all other selections. 
 <p align="center">
-![Select All Artboards Walkthrough](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectAll.gif)
+<img alt="Artboards - Select All walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectAll.gif"/>
 </p>
 
 #### Select By Name
 Selects all the Artboards in the current page based on the name given, and removes all the other selections. Name basically works like a pattern, if it matches the partial text in the name it will get selected.
 
 <p align="center">
-<img src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectByName.gif" alt="Select By Name Artboards Walkthrough"/>
+<img src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Artboards-SelectByName.gif" alt="Artboards - Select By Name walkthrough"/>
 </p>
 
 ### Layers
@@ -53,5 +53,26 @@ Selects all the Artboards in the current page based on the name given, and remov
 Selects all the Layers in the current selection (Group or Artboard) based on the name given, and removes all the other selections. Name basically works like a pattern, if it matches the partial text in the name it will get selected.
 
 <p align="center">
-![Select All Artboards Walkthrough](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectByName.gif)
+<img alt="Layers - Select By Name walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectByName.gif"/>
+</p>
+
+#### Select Bitmap
+Selects all the Bitmaps (Any type of images) in the current selection (Group or Artboard).
+
+<p align="center">
+<img alt="Layers - Select Bitmap walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectBitmaps.gif"/>
+</p>
+
+#### Select Symbols
+Selects all the Symbols in the current selection (Group or Artboard).
+
+<p align="center">
+<img alt="Layers - Select Symbols walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectSymbols.gif"/>
+</p>
+
+#### Select Text
+Selects all text the current selection (Group or Artboard).
+
+<p align="center">
+<img alt="Layers - Select Text walkthrough" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Layers-SelectText.gif"/>
 </p>
