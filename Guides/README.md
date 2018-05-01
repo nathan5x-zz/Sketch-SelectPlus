@@ -58,14 +58,14 @@ Selects all the Shapes (any shape types) in the current artboard / group and rem
 Selects all the shapes of type Rectangle in the current artboard / group, and removes all other selections. 
 
 <p align="center">
-<img alt="Shapes - Select All Rectangles" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectRectangles.gif"/>
+<img alt="Shapes - Select All Rectangles" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectRectangle.gif"/>
 </p>
 
 #### Select Ovals
 Selects all the shapes of type Oval in the current artboard / group, and removes all other selections. 
 
 <p align="center">
-<img alt="Shapes - Select All Ovals" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectOvals.gif"/>
+<img alt="Shapes - Select All Ovals" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectOval.gif"/>
 </p>
 
 #### Select Triangles
