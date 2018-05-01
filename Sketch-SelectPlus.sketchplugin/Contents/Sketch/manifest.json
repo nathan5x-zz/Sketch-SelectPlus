@@ -4,7 +4,7 @@
   "author": "Sabarinathan Masilmani",
   "homepage": "https://github.com/nathan5x/Sketch-SelectPlus",
   "version": "0.1.1",
-  "appcast": "",
+  "appcast": "https://raw.githubusercontent.com/nathan5x/Sketch-SelectPlus/master/updates/appcast.xml",
   "identifier": "com.nathan5x.sketch.selectplus",
   "updateURL": "",
   "compatibleVersion": "49.3",
