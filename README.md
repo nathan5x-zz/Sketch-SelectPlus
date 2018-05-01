@@ -28,9 +28,7 @@ or
 
 * Step 2: Double click the .sketchplugin file. This will automatically copy the plugin to the Sketch Plugins folder.
 
-- - - - 
-
-## Mini Guide
+## Guide
 
 ### Artboards
 
@@ -58,7 +56,7 @@ Selects all the shapes of type Rectangle in the current artboard / group, and re
 <img alt="Shapes - Select All Rectangles" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectRectangle.gif"/>
 </p>
 
-[Read More](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/README.md)
+[View More](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/README.md)
 
 ## Want to contribute? :handshake:
 
