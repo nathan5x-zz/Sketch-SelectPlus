@@ -48,6 +48,7 @@ Selects all the Layers in the current selection (Group or Artboard) based on the
 </p>
 
 ### Shapes
+> This shape specific selection comes handy when there are large number of layers and want to select only Rectangles or Lines among them.
 
 #### Select Rectangles
 Selects all the shapes of type Rectangle in the current artboard / group, and removes all other selections. 
