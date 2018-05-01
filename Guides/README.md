@@ -93,12 +93,12 @@ Selects all the shapes of type Star in the current artboard / group, and removes
 Selects all the Lines in the current artboard / group, and removes all other selections. 
 
 <p align="center">
-<img alt="Shapes - Select All Lines" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectLines.gif"/>
+<img alt="Shapes - Select All Lines" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectLine.gif"/>
 </p>
 
 #### Select Arrows
 Selects all the Arrows in the current artboard / group, and removes all other selections. 
 
 <p align="center">
-<img alt="Shapes - Select All Arrows" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectArrows.gif"/>
+<img alt="Shapes - Select All Arrows" src="https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/Shapes-SelectArrow.gif"/>
 </p>
