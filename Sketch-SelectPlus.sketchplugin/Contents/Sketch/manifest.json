@@ -133,7 +133,7 @@
       "handler": "starGithub"
     },
     {
-      "name": "Version",
+      "name": "Version History",
       "identifier": "com.nathan5x.general.version",
       "shortcut": "",
       "script": "general.js",
@@ -195,15 +195,21 @@
               "com.nathan5x.selectplus.paths.selectline",
               "com.nathan5x.selectplus.paths.selectarrow"
            ]
-        },
+        }, 
         "-",
-        "com.nathan5x.general.guide",
-        "-",
-        "com.nathan5x.general.stargithub",
-        "com.nathan5x.general.version",
-        "com.nathan5x.general.filebug",
-        "-",
-        "com.nathan5x.general.sendfeedback"
+        {
+          "title": "Help",
+          "items": [
+            "-",
+            "com.nathan5x.general.guide",
+            "-",
+            "com.nathan5x.general.stargithub",
+            "com.nathan5x.general.version",
+            "com.nathan5x.general.filebug",
+            "-",
+            "com.nathan5x.general.sendfeedback"
+           ]
+        }
     ]
   }
 }
