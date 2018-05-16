@@ -14,48 +14,56 @@
     {
       "name": "Select All",
       "identifier": "com.nathan5x.selectplus.artboards.selectall",
+      "description" : "Selects all the artboards in the current page.",
       "shortcut": "",
       "script": "lib/artboards/SelectAll.js"
     },
     {
       "name": "Select By Name",
       "identifier": "com.nathan5x.selectplus.artboards.selectbyname",
+      "description" : "Selects all the artboards with the specific name.",
       "shortcut": "",
       "script": "lib/artboards/SelectByName.js"
     },
     {
       "name": "Select By Style",
       "identifier": "com.nathan5x.selectplus.layers.selectbystyle",
+      "description" : "Selects all the layers in the current artboard that has the selected style.",
       "shortcut": "",
       "script": "lib/styles/SelectByStyle.js"
     },
     {
       "name": "Select Similar Layers",
       "identifier": "com.nathan5x.selectplus.layers.selectsimilarstyle",
+      "description" : "Selects all the layers in the current artboard that has the similar style.",
       "shortcut": "ctrl alt shift S",
       "script": "lib/styles/SelectSimilarLayers.js"
     },
     {
       "name": "Select By Name",
       "identifier": "com.nathan5x.selectplus.layers.selectbyname",
+      "description" : "Selects all the layers in the current selection that has the specific name.",
       "shortcut": "",
       "script": "lib/layers/SelectByName.js"
     },
     {
       "name": "Select All Bitmap/Images",
       "identifier": "com.nathan5x.selectplus.layers.selectbitmap",
+      "description" : "Selects all the Bitmaps/Images in the current selection.",
       "shortcut": "ctrl option command i",
       "script": "lib/layers/SelectBitmaps.js"
     },
     {
       "name": "Select All Symbols",
       "identifier": "com.nathan5x.selectplus.layers.selectsymbol",
+      "description" : "Selects all the Symbols in the current selection.",
       "shortcut": "ctrl option command s",
       "script": "lib/layers/SelectSymbols.js"
     },
     {
       "name": "Select All Text",
       "identifier": "com.nathan5x.selectplus.layers.selecttext",
+      "description" : "Selects all the Text layers in the current selection.",
       "shortcut": "ctrl option command t",
       "script": "lib/layers/SelectText.js"
     },
@@ -86,30 +94,35 @@
     {
       "name": "Select All",
       "identifier": "com.nathan5x.selectplus.shapes.selectall",
+      "description" : "Selects all the Shapes in the current selection.",
       "shortcut": "",
       "script": "lib/shapes/SelectAll.js"
     },
     {
       "name": "Select All Rectangles",
       "identifier": "com.nathan5x.selectplus.shapes.selectrectangle",
+      "description" : "Selects all the Rectangle shapes in the current selection.",
       "shortcut": "",
       "script": "lib/shapes/SelectRectangle.js"
     },
     {
       "name": "Select All Ovals",
       "identifier": "com.nathan5x.selectplus.shapes.selectoval",
+      "description" : "Selects all the Oval shapes in the current selection.",
       "shortcut": "",
       "script": "lib/shapes/SelectOval.js"
     },
     {
       "name": "Select All Lines",
       "identifier": "com.nathan5x.selectplus.paths.selectline",
+      "description" : "Selects all the Line shapes in the current selection.",
       "shortcut": "",
       "script": "lib/shapes/paths/SelectLine.js"
     },
     {
       "name": "Select All Arrows",
       "identifier": "com.nathan5x.selectplus.paths.selectarrow",
+      "description" : "Selects all the Aroow shapes in the current selection.",
       "shortcut": "",
       "script": "lib/shapes/paths/SelectArrow.js"
     },
@@ -122,12 +135,14 @@
     {
       "name": "Select All Polygons",
       "identifier": "com.nathan5x.selectplus.shapes.selecttpolygon",
+      "description" : "Selects all the Polygon shapes in the current selection.",
       "shortcut": "",
       "script": "lib/shapes/SelectPolygon.js"
     },
     {
       "name": "Select All Star",
       "identifier": "com.nathan5x.selectplus.shapes.selectstar",
+      "description" : "Selects all the Star shapes in the current selection.",
       "shortcut": "",
       "script": "lib/shapes/SelectStar.js"
     },    
