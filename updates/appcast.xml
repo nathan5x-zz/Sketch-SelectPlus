@@ -14,7 +14,19 @@
           </ul>
         ]]>
       </description>
-      <enclosure url="https://github.com/nathan5x/Sketch-SelectPlus/archive/master.zip" sparkle:version="1.2.3" />
+      <enclosure url="https://github.com/nathan5x/Sketch-SelectPlus/archive/master.zip" sparkle:version="0.1.1" />
+    </item>
+    <item>
+      <title>Version 1.1.0</title>
+      <description>
+        <![CDATA[
+          <ul>
+            <li>Major update 1.0.0</li>
+            <li>Included new style selectors</li>
+          </ul>
+        ]]>
+      </description>
+      <enclosure url="https://github.com/nathan5x/Sketch-SelectPlus/archive/master.zip" sparkle:version="1.0.0" />
     </item>
   </channel>
 </rss>
