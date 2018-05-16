@@ -22,11 +22,11 @@ var onRun = function (context) {
         
     var total = linePaths.length;
     if(total == 0) {
-        doc.showMessage("No Lines");
+        doc.showMessage("No Lines.");
         return
     }
     
     Utilz.helper.clearSelection(context);
     Utilz.helper.selectLayers(linePaths);
-    doc.showMessage(total+" line(s) selected");
+    doc.showMessage(total+" Line(s) selected");
 }

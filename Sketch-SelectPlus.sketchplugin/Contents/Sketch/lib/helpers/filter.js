@@ -119,7 +119,7 @@ Utilz.filter = {
                 innerCurvePoints = jsonStruct.layers[0].points.length;
             }
            
-            var innerStyleDecoration = jsonStruct.style ? jsonStruct.style.endDecorationType : -1;           
+            var innerStyleDecoration = jsonStruct.style ? jsonStruct.style.endDecorationType : -1;
             if(innerLayerClass == Utilz.shape.PATH_CLASS && innerStyleDecoration == shapeType && innerCurvePoints == 2) {                
                 array.push(layer); 
             }         
@@ -135,6 +135,34 @@ Utilz.filter = {
                 Utilz.filter.filterPaths(innerLayer, shapeType, array);
             })
         }        
+        return array;
+    },
+    filterLayersByStyle: function(layer, sharedObjectID, array) {
+        var className = layer.className();
+        if(layer.className() == Utilz.layer.TEXT) {
+            return array;
+        }
+
+        // Do not Destrut TEXT Layers as the comparison happens only on Layer styles
+        var jsonStruct = Utilz.helper.toJSON(layer.style());
+        var _layerSharedStyleID = jsonStruct && jsonStruct.sharedObjectID ? jsonStruct.sharedObjectID  : -1;
+
+        if(_layerSharedStyleID != -1 && sharedObjectID == _layerSharedStyleID) {
+            array.push(layer);
+        }
+
+        if (className == Utilz.layer.GROUP || className == Utilz.layer.ARTBOARD) {
+            var layers = layer.layers();
+            var layersCount = layers.length;
+
+            if(layersCount == 0){
+                return array;
+            }
+
+            layers.forEach( innerLayer => {
+                Utilz.filter.filterLayersByStyle(innerLayer, sharedObjectID, array);
+            })
+        }
         return array;
     }
 }

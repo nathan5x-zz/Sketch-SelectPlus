@@ -8,6 +8,7 @@
   "identifier": "com.nathan5x.sketch.selectplus",
   "updateURL": "",
   "compatibleVersion": "49.3",
+  "icon": "SketchPlus-Icon.png",
   "bundleVersion": 1,
   "commands": [
     {
@@ -21,6 +22,18 @@
       "identifier": "com.nathan5x.selectplus.artboards.selectbyname",
       "shortcut": "",
       "script": "lib/artboards/SelectByName.js"
+    },
+    {
+      "name": "Select By Style",
+      "identifier": "com.nathan5x.selectplus.layers.selectbystyle",
+      "shortcut": "",
+      "script": "lib/styles/SelectByStyle.js"
+    },
+    {
+      "name": "Select Similar Layers",
+      "identifier": "com.nathan5x.selectplus.layers.selectsimilarstyle",
+      "shortcut": "ctrl alt shift S",
+      "script": "lib/styles/SelectSimilarLayers.js"
     },
     {
       "name": "Select By Name",
@@ -168,6 +181,7 @@
           "title": "Layers",
           "items": [
               "com.nathan5x.selectplus.layers.selectbyname",
+              "com.nathan5x.selectplus.layers.selectbystyle",
               "-",
               "com.nathan5x.selectplus.layers.selectbitmap",
               "com.nathan5x.selectplus.layers.selectsymbol",
@@ -196,6 +210,13 @@
               "com.nathan5x.selectplus.paths.selectarrow"
            ]
         }, 
+        {
+          "title": "Styles",
+          "items": [
+              "com.nathan5x.selectplus.layers.selectbystyle",
+              "com.nathan5x.selectplus.layers.selectsimilarstyle"
+           ]
+        },
         "-",
         {
           "title": "Help",

@@ -22,11 +22,11 @@ var onRun = function (context) {
 
     var total = ovalLayers.length;
     if(total == 0) {
-        doc.showMessage("No Oval Shapes");
+        doc.showMessage("No Oval shapes.");
         return
     }
     
     Utilz.helper.clearSelection(context) 
     Utilz.helper.selectLayers(ovalLayers) 
-    doc.showMessage(total+" Oval(s) selected");
+    doc.showMessage(total+" Oval(s) selected.");
 }

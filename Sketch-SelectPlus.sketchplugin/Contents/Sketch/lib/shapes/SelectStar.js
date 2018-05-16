@@ -22,11 +22,11 @@ var onRun = function (context) {
         
     var total = starLayers.length;
     if(total == 0) {
-        doc.showMessage("No Star shapes");
+        doc.showMessage("No Star shapes.");
         return
     }
     
     Utilz.helper.clearSelection(context);
     Utilz.helper.selectLayers(starLayers);
-    doc.showMessage(total+" star(s) selected");
+    doc.showMessage(total+" Star(s) selected.");
 }

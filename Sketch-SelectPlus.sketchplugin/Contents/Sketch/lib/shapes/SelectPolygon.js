@@ -22,11 +22,11 @@ var onRun = function (context) {
         
     var total = polygonLayers.length;
     if(total == 0) {
-        doc.showMessage("No Bitmap Layers");
+        doc.showMessage("No Polygon shapes.");
         return
     }
     
     Utilz.helper.clearSelection(context);
     Utilz.helper.selectLayers(polygonLayers);
-    doc.showMessage(total+" polygon(s) selected");
+    doc.showMessage(total+" Polygon(s) selected.");
 }

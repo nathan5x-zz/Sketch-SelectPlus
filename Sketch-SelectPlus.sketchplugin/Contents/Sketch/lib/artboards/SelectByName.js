@@ -39,5 +39,5 @@ var onRun = function (context) {
     
     Utilz.helper.clearSelection(context) 
     Utilz.helper.selectLayers(namesArtboards);    
-    doc.showMessage(total+" Artboard(s) named "+name+" selected.");
+    doc.showMessage(total+" Artboard(s) named or contains "+name+" selected.");
 }

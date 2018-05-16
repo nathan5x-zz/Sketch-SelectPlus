@@ -56,7 +56,7 @@ Utilz.nativeUI = {
         //windowStyle.dialogData = NSUserDefaults.alloc().initWithSuiteName("com.nathan5x.sketch.utilz");
 
         //Add message
-        var infoLabel = NSTextField.alloc().initWithFrame(NSMakeRect(0, 50, (windowStyle.WIDTH - 50), 35));
+        var infoLabel = NSTextField.alloc().initWithFrame(NSMakeRect(0, 40, (windowStyle.WIDTH - 50), 35));
         infoLabel.setStringValue(message);
         infoLabel.setSelectable(false);
         infoLabel.setEditable(false);
@@ -69,5 +69,33 @@ Utilz.nativeUI = {
     displayYesNoDialogWithMessage: function(title, message, yesBtnText, noBtnText) {       
         var dialog = this.createDialogWithMessage(title, message, yesBtnText, noBtnText); 
         return [dialog][0];
+    },
+    displayDialogWithDropDown: function(dropdownData, title, message) {
+        var currentWindow = DialogWindow.medium;
+        var dialog = this.createDialogWithMessage(title, message, "Ok", "Cancel", currentWindow);
+
+        var dropdownUI = NSPopUpButton.alloc().initWithFrame(NSMakeRect(0, currentWindow.HEIGHT - 60, 150, 35));
+
+        dropdownData.forEach(function(styleItem) {
+            [dropdownUI addItemWithTitle:styleItem];
+        });
+
+        currentWindow.view.addSubview(dropdownUI);
+
+        var modalHandler = [dialog][0];
+        var modalResponse = modalHandler.runModal();
+        var selectedIndex;
+
+        switch(modalResponse) {
+            case 1000:
+                currentWindow.dialogData = {};
+                selectedIndex = dropdownUI.indexOfSelectedItem();
+                currentWindow.dialogData = {selectedIndex};
+                break;
+            case 1001:
+                currentWindow.dialogData = null;
+                break;
+        }
+        return currentWindow.dialogData;
     }
 }

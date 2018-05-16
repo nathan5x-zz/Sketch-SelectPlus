@@ -22,11 +22,11 @@ var onRun = function (context) {
 
     var total = rectLayers.length;
     if(total == 0) {
-        doc.showMessage("No Rectangle shapes");
+        doc.showMessage("No Rectangle shapes.");
         return
     }
     
     Utilz.helper.clearSelection(context) 
     Utilz.helper.selectLayers(rectLayers) 
-    doc.showMessage(total+" rectangle(s) selected");
+    doc.showMessage(total+" Rectangle(s) selected.");
 }

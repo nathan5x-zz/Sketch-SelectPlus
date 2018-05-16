@@ -22,11 +22,11 @@ var onRun = function (context) {
         
     var total = arrowPaths.length;
     if(total == 0) {
-        doc.showMessage("No Arrows");
+        doc.showMessage("No Arrows.");
         return
     }
     
     Utilz.helper.clearSelection(context);
     Utilz.helper.selectLayers(arrowPaths);
-    doc.showMessage(total+" arrow(s) selected");
+    doc.showMessage(total+" Arrow(s) selected");
 }
