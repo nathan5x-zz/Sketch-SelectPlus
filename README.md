@@ -60,15 +60,14 @@ Selects all the shapes of type Rectangle in the current artboard / group, and re
 [View More](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/README.md)
 
 ## Sketch Runner
-### Works with SketchRunner
 [![SketchRunner](https://sketchrunner.com/img/Runner_badge_white_160x40.png)](http://bit.ly/SketchRunnerWebsite)
 
-### Install with Sketch Runner
+#### Install with Sketch Runner
 With Sketch Runner, just go to the `install` command and search for `SelectPlus`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
 ![Sketch Runner screenshot](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Assets/SelectInstall-SketchRunner.png)
 
-### Search commands effortlessly
+#### Search commands effortlessly
 With Sketch Runner, just go to the `run` command and search for `Select`. 
 
 ![Sketch Runner screenshot](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Assets/Select-SketchRunner.png)
