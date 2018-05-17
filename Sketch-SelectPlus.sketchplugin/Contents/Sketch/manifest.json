@@ -3,7 +3,7 @@
   "description": "SelectPlus offers a dedicated engine to select layers of different types, including Shape types (Rectangles, Polygon, Line, Oval,...).",
   "author": "Sabarinathan Masilmani",
   "homepage": "https://github.com/nathan5x/Sketch-SelectPlus",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "appcast": "https://raw.githubusercontent.com/nathan5x/Sketch-SelectPlus/master/updates/appcast.xml",
   "identifier": "com.nathan5x.sketch.selectplus",
   "updateURL": "",
