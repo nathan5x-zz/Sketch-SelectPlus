@@ -22,11 +22,11 @@ var onRun = function (context) {
 
     var total = triangleLayers.length;
     if(total == 0) {
-        doc.showMessage("No Triangle Shapes");
+        doc.showMessage("No Triangle shapes.");
         return
     }
     
     Utilz.helper.clearSelection(context) 
     Utilz.helper.selectLayers(triangleLayers) 
-    doc.showMessage(total+" Triangle(s) selected");
+    doc.showMessage(total+" Triangle(s) selected.");
 }
