@@ -5,22 +5,22 @@ Sketch app plugin to deep select different categories / types of layer, it can b
 ## Plugin Options
 ### Primary
 
-| Artboards      | Layers                    | Shapes                  |
-| -------------- | ------------------------- | ----------------------- |
-| Select All     | Select All                | Select All              |
-| Select By Name | Select By Name            | Select All Rectangles   |
-|                | Select All Bitmaps/Images | Select All Ovals        |
-|                | Select All Symbols        | Select All Triangles    |
-|                | Select All Text           | Select All Polygons     |
-|                |                           | Select All Stars        |
-|                |                           | Select All Lines        |
-|                |                           | Select All Arrows       |
+| Artboards      | Layers                    | Shapes                  | Styles                  |
+| -------------- | ------------------------- | ----------------------- | ----------------------- |
+| Select All     | Select All                | Select All              | Select By Style         |
+| Select By Name | Select By Name            | Select All Rectangles   | Select Similar Layers   |
+|                | Select All Bitmaps/Images | Select All Ovals        |                         |
+|                | Select All Symbols        | Select All Triangles    |                         |
+|                | Select All Text           | Select All Polygons     |                         |
+|                |                           | Select All Stars        |                         |
+|                |                           | Select All Lines        |                         |
+|                |                           | Select All Arrows       |                         |
 
 ## Installation
 
 To install the plugin, 
 
-* Step 1: [Download](https://github.com/nathan5x/Sketch-SelectPlus/archive/master.zip) first, unzip the archive.
+* Step 1: [Download](https://goo.gl/omQEUS) first, unzip the archive.
 
 * Step 2: Place the folder contents in your Sketch Plugins folder by navigating to `Sketch > Plugins > Reveal Plugins Folder…`
 
@@ -60,7 +60,7 @@ Selects all the shapes of type Rectangle in the current artboard / group, and re
 [View More](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Guides/README.md)
 
 ## Sketch Runner
-[![SketchRunner](https://sketchrunner.com/img/Runner_badge_white_160x40.png)](http://bit.ly/SketchRunnerWebsite)
+[![SketchRunner](https://sketchrunner.com/img/Runner_badge_white_160x40.png =196px)](http://bit.ly/SketchRunnerWebsite)
 
 #### Install with Sketch Runner
 With Sketch Runner, just go to the `install` command and search for `SelectPlus`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
@@ -73,11 +73,11 @@ With Sketch Runner, just go to the `run` command and search for `Select`.
 ![Sketch Runner screenshot](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Assets/Select-SketchRunner.png)
 
 #### Get me a beer :beer: , if you like this Plugin :)
-[![Get Me A Beer](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Assets/Beer.png)](https://www.paypal.me/nathan5x/5usd)
+[![Get Me A Beer](https://github.com/nathan5x/Sketch-SelectPlus/blob/master/Assets/Beer.png)](https://goo.gl/FUpfEV)
 
-[PayPal](https://www.paypal.me/nathan5x/5usd)
+[PayPal](https://goo.gl/FUpfEV)
 
-[![Get Me A Beer](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.me/nathan5x/5usd)
+[![Get Me A Beer](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://goo.gl/FUpfEV)
 
 ## Want to contribute? :handshake:
 
